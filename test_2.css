@@ -10,10 +10,10 @@
 .topnav {
     position: fixed;
     top: 0;
-    margin: 10px;
-    background-color:transparent;
+    margin: 0px;
+    background-color: rgb(162,181,180, 0.2);
     color: white;
-    height: 100px;
+    height: 80px;
     width: 100%;
     transition: background-color;
     z-index: 80;
@@ -39,6 +39,7 @@
     overflow: hidden;
     background-color: transparent;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
 }
 
 .dropdown {
@@ -242,14 +243,15 @@
 }
 
 .open-kast-button {
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 1.25px;
     height: 20px;
     line-height: 20px;
     border: solid white 1px;
     border-radius: 2px;
     outline: none;
     color: white;
-    padding: 0 7px 23px 7px;
+    padding: 5px 7px 23px 7px;
     background-color: transparent;
     font-family: inherit;
     margin: 0;
@@ -259,7 +261,7 @@
 }
 
 .open-kast-button:hover {
-    padding: 1px 11px 1px 11px;
+    padding: 6px 8px 24px 8px;
 }
 
 .guyOnBoat {
