@@ -45,12 +45,10 @@
     padding-top: 15px;
 }
 
-
-
 .dropdown {
     float: left;
     overflow: hidden;
-    margin: 5px 20px 20px 650px;
+    margin: 5px 16px 16px 650px;
     z-index: 2;
 }
 
@@ -114,7 +112,7 @@
 .dropdown-2 {
     float: left;
     overflow: hidden;
-    margin: 5px 20px 20px 0;
+    margin: 5px 16px 16px 0;
  
 }
 
@@ -170,7 +168,7 @@
 .dropdown-3 {
     float: left;
     overflow: hidden;
-    margin: 5px 20px 20px 0;
+    margin: 5px 16px 16px 0;
 }
 
 .dropdown-3 .dropbtn-3 {
@@ -221,7 +219,7 @@
 .premium {
     float: left;
     overflow: hidden;
-    margin: 5px 20px 20px 0;
+    margin: 5px 16px 16px 0;
 }
 
 .premium-button {
@@ -269,6 +267,10 @@
 .open-kast-button:hover {
     padding: 1px 6px 1px 6px;
     border: solid white 2px;
+}
+
+.navbar i {
+    padding: 0 0 0 10px;
 }
 
 .guyOnBoat {
@@ -331,7 +333,7 @@
     margin-right: auto;
 }
 
-.featured {
+.featured { 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
