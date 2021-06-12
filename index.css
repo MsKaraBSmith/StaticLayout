@@ -3,17 +3,20 @@
     height: 925px;
     margin: 0;
     background:url("https://www.kastapp.co/images/gradient-violet-bg.jpg");
-    background-size: 100%;
+    display: block;
+    object-fit: cover;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     z-index: -90;
 }
 
 .topnav {
     position: fixed;
-    top: 0;
-    margin: 10px;
-    background-color:transparent;
+    margin: 0px;
     color: white;
-    height: 100px;
+    height: 80px;
     width: 100%;
     transition: background-color;
     z-index: 80;
@@ -38,8 +41,11 @@
 .navbar {
     overflow: hidden;
     background-color: transparent;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
+    padding-top: 15px;
 }
+
+
 
 .dropdown {
     float: left;
@@ -55,7 +61,7 @@
     color: white;
     padding: 14px 16px;
     background-color: transparent;
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     cursor: pointer;
     z-index: 2;
@@ -119,7 +125,7 @@
     color: white;
     padding: 14px 16px;
     background-color: transparent;
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     cursor: pointer;
 }
@@ -174,7 +180,7 @@
     color: white;
     padding: 14px 16px;
     background-color: transparent;
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     cursor: pointer;
 }
@@ -225,7 +231,7 @@
     color: white;
     padding: 14px 16px;
     background-color: transparent;
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     cursor: pointer;
 }
@@ -242,24 +248,27 @@
 }
 
 .open-kast-button {
-    font-size: 16px;
-    height: 20px;
-    line-height: 20px;
+    position: relative;
+    margin: 0 0 0 15px;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    height: 25px;
     border: solid white 1px;
     border-radius: 2px;
     outline: none;
     color: white;
-    padding: 0 7px 23px 7px;
+    padding: 0 5px 0 5px;
     background-color: transparent;
-    font-family: inherit;
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     text-align: center;
     transition: all .2s ease-in-out
 }
 
 .open-kast-button:hover {
-    padding: 1px 11px 1px 11px;
+    padding: 1px 6px 1px 6px;
+    border: solid white 2px;
 }
 
 .guyOnBoat {
@@ -273,14 +282,15 @@
 
 .watch {
     text-align: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
     color: white;
 }
 
 .description {
     text-align: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: white;
     margin-left: 475px;
@@ -291,8 +301,9 @@
 .open-kast-now button {
     position: relative;
     text-align: center;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
     color: white;
     background-color: orange;
     height: 44px;
@@ -320,10 +331,7 @@
     margin-right: auto;
 }
 
-
-
 .featured {
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -335,8 +343,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    
-
 }
 
 .featured img {
