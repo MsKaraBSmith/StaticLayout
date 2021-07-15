@@ -273,7 +273,7 @@
     padding: 0 0 0 10px;
 }
 
-.guyOnBoat {
+#guy-on-boat {
     position: relative;
     display: block;
     margin-left: auto;
@@ -290,7 +290,7 @@
     color: white;
 }
 
-.description {
+#description {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
